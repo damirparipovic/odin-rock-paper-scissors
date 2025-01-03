@@ -1,0 +1,53 @@
+/** {*/
+/*    border: 1px red solid;*/
+/*}*/
+
+.button-container {
+    height: 200px;
+    widht: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+button {
+    height: 60px;
+    width: 80px;
+    font-size: 16px;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+.results {
+    padding: 24px 36px;
+    border: 2px solid;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-container {
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#player-score-container,
+#computer-score-container {
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player-score,
+#computer-score {
+    text-align: center;
+}
